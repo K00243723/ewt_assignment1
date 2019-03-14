@@ -1,0 +1,170 @@
+
+
+#wrapper{
+    //border:1px solid #B5FFBE ;
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:lightblue;
+    font-family:arial;
+}
+#header{
+    height:8em;
+   // background-color: #62a1d7;
+    background-color:black;
+   
+}
+#header img{
+    padding: 5px;
+    float:left;
+   // background-color: #225270 ;
+    margin-left: 20px;
+    //margin-top: -px;
+}
+#header h1{
+     font-size: 3em;
+   margin-left: 10px;
+    font-family:arial;
+    text-align: center;
+    padding:10px;
+     color: #ffff;
+   
+}
+.topic{
+    color: #f90a10;
+}
+#nav{
+   clear:both;
+    //margin-left:20px;
+    font-size:1.2em;
+    background-color:#fe0000 ;
+    color: white;
+    height: 70px;
+    padding: 10px;
+}
+#nav ul{
+    margin:0;
+    //margin-left: -3.30em;   
+}
+#nav ul li{
+    display: inline-block;  
+    padding: 0.3em;
+   
+}
+#nav ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    //font-weight:bold;
+    font-size: 1.1em;   
+}
+#nav a:hover{
+    //text-decoration: underline;
+    border-bottom: 0.20em solid;
+    
+}
+#nav a.currentpage{
+    color:azure;
+    border-bottom: 0.20em solid;
+}
+
+#nav a:link,#nav a:visited{
+   // color: darkviolet;
+}
+#nav .search{
+    float: right;
+    width: 24%;
+    margin-top: -25px;   
+}
+input[type=text]{
+    width:70%;
+    padding: 8px;
+    
+	border-radius:5px;
+    margin-left: 10px;
+    border: none;   
+    
+ }
+button[type=submit]{
+    height: 32px;
+    width: 15%;
+    border-radius:5px;
+    background: white;
+    border: none;
+}
+h3{
+    color: #65ac04;
+    margin-left: 420px;
+    margin-top: 150px;
+    font-size: 2em;
+}
+.login{
+    background-color: #F6F3F0;
+}
+.login label{
+    color: black;
+     margin-left: 300px;
+}
+#uname{
+    margin-left: 10px;
+    line-height: 20px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#email{
+    margin-left: 40px;
+    line-height: 35px;
+    width: 265px;
+    border-radius: 5px;
+    margin-top: 10px;
+     border: 1px solid black;
+}
+ #password{
+    margin-left: 25px;
+    line-height: 35px;
+    width: 265px;
+    border-radius: 5px;
+     margin-top: 10px;
+     border: 1px solid black;
+}
+#button{
+    margin-left: 480px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #65ac04;
+    border: none;
+    color: white;
+    font-size: 20px;
+    
+    
+}
+h5{
+    color: black;
+    margin-left: 460px;
+    margin-top: -10px;
+}
+
+#advertise2{
+    margin-left: 150px;
+    margin-top: 20px;
+   background-color: #F6F3F0;
+}
+#advertise2 img{
+    padding: 30px;
+    
+    
+}
+footer {
+    
+     height:50px;
+    clear: both;
+    //margin-top: 5px;
+    text-align: center;
+    color: white;
+    background-color:black;
+    padding: 20px;
+   
+   
+}
