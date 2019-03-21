@@ -1,5 +1,5 @@
 #wrapper{
-    max-width:1200px;
+    max-width:1700px;
    margin: auto;
     background-color: #F6F3F0;
     font-family:arial;
@@ -8,7 +8,7 @@
     
 }
 #header{
-    height:5em;
+    height:7em;
    // background-color: #62a1d7;
     background-color:black;
    // display:flex;
@@ -19,7 +19,7 @@
      font-size: 3em;
    
     font-family:arial;
-    padding:5px;
+    padding:10px;
      color: #ffff;
     margin-bottom: 10px;
     flex-direction: row;
@@ -35,7 +35,7 @@
    
     font-size:1.2em;
     background-color:#fe0000 ;
-    height: 40px;
+    height: 45px;
     margin-top: -20px;
     display: flex;
    // flex-wrap: wrap;
@@ -45,7 +45,7 @@
 ul{
    //display: flex;
     justify-content:space-between;
-    //margin-left: 30px;
+    //margin-left: 50px;
     margin-top: 10px;
     
    
@@ -55,7 +55,7 @@ ul li{
       display: inline-block;  
     
     margin-top: -30px;
-    margin-left: -15px;
+    margin-left: 5px;
     padding: 15px;
    
    
@@ -89,10 +89,10 @@ ul li a{
     display: flex;
     float: right;
     width: 24%;
-    margin-top: -35px;   
+    margin-top: -38px;   
 }
 input[type=text]{
-    width:60%;
+    width:62%;
     padding: 8px;
     
 	border-radius:5px;
@@ -108,23 +108,31 @@ button[type=submit]{
     border: none;
     
 }
-h3{ 
-    color: #65ac04;
-    margin-left: 420px;
-    margin-top: 150px;
-    font-size: 2em;
-}
 .login{
     
     background-color: #F6F3F0;
+    display: flex;
+    justify-content: center;
+      margin-top: 350px;
+    
 }
+h3{ 
+    color: #65ac04;
+   margin-left: 520px;
+    margin-top: -50px;
+    font-size: 2em;
+    // justify-content: center;
+   
+}
+
 .login label{
     color: black;
-     margin-left: 300px;
+    margin-left: -260px;
+   //justify-content: center;
     
 }
 #uname{
-    margin-left: 10px;
+    margin-left: 15px;
     line-height: 20px;
     width: 250px;
     border-radius: 5px;
@@ -147,7 +155,7 @@ h3{
      border: 1px solid black;
 }
 #button{
-    margin-left: 440px;
+    margin-left: -100px;
     height: 40px;
     width: 150px;
     border-radius: 10px;
@@ -161,8 +169,8 @@ h3{
 }
 h5{
     color: black;
-    margin-left: 460px;
-    margin-top: -10px;
+    margin-left: -75px;
+    margin-top: 20px;
 }
 
 #advertise2{
@@ -193,17 +201,20 @@ footer {
     flex-wrap: wrap;
    
 }
-
+/*#facebook{
+    margin-top: 5px;
+}
 
 #facebook img{
-    margin-left: 510px;
+    margin-left: 60px;
     padding: 5px;
+    text-align: center;
 }
 #instagram {
-    margin-top: -42px;
+    margin-top: -20px;
 }
 #instagram img{
-    margin-left: 545px;
+    margin-left: 345px;
     padding: 5px;
     
 }
@@ -230,13 +241,13 @@ footer {
     margin-left: 650px;
     padding: 5px;
    // margin-top: -15px;
-}
+}*/
 #fo p{
    // text-align: center;
     color: white;
-    margin-top: -30px;
+    margin-top: 20px;
     padding: 5px;
-    margin-left: 505px;
+    //margin-left: 50px;
 
 }
 /*.toggle{
