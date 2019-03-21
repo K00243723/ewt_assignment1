@@ -183,7 +183,19 @@ footer {
     
     
 }
-@media only screen and (min-width: 320px)and (max-width: 480px){
+
+
+
+
+
+
+@media only screen and  (min-width: 480px){
+    
+    #wrapper{
+    width:400px;
+
+    }
+    
     body{
         background-color: red;
     }
@@ -265,7 +277,14 @@ button[type=submit]{
     
 }
 }
-@media only screen and (min-width: 481px)and (max-width: 768px){
+
+@media only screen and (min-width: 768px){
+        
+    #wrapper{
+    width:700px;
+
+    
+}
     body{
         background-color: green;
     }
@@ -352,10 +371,15 @@ button[type=submit]{
 }
     
 }
-/*@media only screen and (min-width: 769px)and (max-width: 1200px){
+
+
+
+@media only screen and (min-width: 1200px){
     body{
         background-color: blueviolet;
     }
+    #wrapper {
+        
+        width: 1200px;
+    }
 }
-*/
-
