@@ -112,3 +112,16 @@
   border-width: 1px;
     margin-left: 320px;
 }
+@media only screen and (min-width: 320px)and (max-width: 480px){
+    body{
+        background-color: red;
+    }
+   
+}
+@media only screen and (min-width: 481px)and (max-width: 768px){
+    body{
+        background-color: green;
+    }
+    
+}
+    
