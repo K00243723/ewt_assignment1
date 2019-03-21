@@ -73,100 +73,39 @@ h5{
 }
 #advertise2 img{
     padding: 30px;
-    
-    
-    
+      
 }
-@media only screen and (min-width: 320px)and (max-width: 480px){
+@media only screen and  (min-width: 480px){
+    
+    #wrapper{
+    width:400px;
+
+    }
+    
     body{
         background-color: red;
     }
-    .login{
-    
-    background-color: #F6F3F0;
-    display: flex;
-    justify-content: center;
-     margin-top: 150px;
-        margin-left: 100px;
-    
-}
-   h3{ 
    
-   margin-left: 50px;
-    margin-top: -250px;
-    font-size: 1.3em;
-    text-align: center;
-   
-}
-    #uname{
-    margin-left: 75px;
-    //line-height: 20px;
-    width: 50px;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-#email{
-    margin-left: 40px;
-    line-height: 35px;
-    width: 265px;
-    border-radius: 5px;
-    margin-top: 10px;
-     border: 1px solid black;
-}
- #password{
-    margin-left: 25px;
-    line-height: 35px;
-    width: 265px;
-    border-radius: 5px;
-     margin-top: 10px;
-     border: 1px solid black;
-}
-#button{
-    margin-left: -100px;
-    height: 40px;
-    width: 150px;
-    border-radius: 10px;
-    margin-top: 20px;
-    background-color: #65ac04;
-    border: none;
-    color: white;
-    font-size: 20px;
-    
-    
-}
-h5{
-    color: black;
-    margin-left: -75px;
-    margin-top: 20px;
 }
 
-#advertise2{
-    display: flex;
-    margin-left: 150px;
-    margin-top: 20px;
-   background-color: #F6F3F0;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-#advertise2 img{
-    padding: 30px;
-    
-    
+@media only screen and (min-width: 768px){
+        
+    #wrapper{
+    width:700px;
+
     
 }
-}
-@media only screen and (min-width: 481px)and (max-width: 768px){
     body{
         background-color: green;
     }
-    
+     
 }
-    
 
-/*@media only screen and (min-width: 769px)and (max-width: 1200px){
+
+
+@media only screen and (min-width: 1200px){
     body{
         background-color: blueviolet;
     }
+    
 }
-*/
-
