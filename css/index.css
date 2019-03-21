@@ -11,7 +11,8 @@
     height:7em;
    // background-color: #62a1d7;
     background-color:black;
-   // display:flex;
+    display:flex;
+    justify-content: center;
    
 }
 
@@ -19,7 +20,7 @@
      font-size: 3em;
    
     font-family:arial;
-    padding:10px;
+    padding:5px;
      color: #ffff;
     margin-bottom: 10px;
     flex-direction: row;
@@ -30,6 +31,7 @@
 }
 .topic{
     color: #f90a10;
+    margin-left: 10px;
 }
 #nav{
    
@@ -108,85 +110,7 @@ button[type=submit]{
     border: none;
     
 }
-.login{
-    
-    background-color: #F6F3F0;
-    display: flex;
-    justify-content: center;
-      margin-top: 350px;
-    
-}
-h3{ 
-    color: #65ac04;
-   margin-left: 520px;
-    margin-top: -50px;
-    font-size: 2em;
-    // justify-content: center;
-   
-}
 
-.login label{
-    color: black;
-    margin-left: -260px;
-   //justify-content: center;
-    
-}
-#uname{
-    margin-left: 15px;
-    line-height: 20px;
-    width: 250px;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-#email{
-    margin-left: 40px;
-    line-height: 35px;
-    width: 265px;
-    border-radius: 5px;
-    margin-top: 10px;
-     border: 1px solid black;
-}
- #password{
-    margin-left: 25px;
-    line-height: 35px;
-    width: 265px;
-    border-radius: 5px;
-     margin-top: 10px;
-     border: 1px solid black;
-}
-#button{
-    margin-left: -100px;
-    height: 40px;
-    width: 150px;
-    border-radius: 10px;
-    margin-top: 20px;
-    background-color: #65ac04;
-    border: none;
-    color: white;
-    font-size: 20px;
-    
-    
-}
-h5{
-    color: black;
-    margin-left: -75px;
-    margin-top: 20px;
-}
-
-#advertise2{
-    display: flex;
-    margin-left: 150px;
-    margin-top: 20px;
-   background-color: #F6F3F0;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-#advertise2 img{
-    padding: 30px;
-    
-    
-    
-}
 footer {
     display: flex;
     flex-shrink: 0;
@@ -250,13 +174,114 @@ footer {
     //margin-left: 50px;
 
 }
-/*.toggle{
+.toggle{
     color: white;
     font-size: 30px;
     display: none;
+    padding: 10px;
     
     
-}*/
+}
+@media only screen and (min-width: 320px)and (max-width: 480px){
+    body{
+        background-color: red;
+    }
+    #header{
+        display: flex;
+    }
+    #header h1{
+        font-size: 40px
+    }
+    #header img{
+        width: 40px;
+        height: 35px;
+    }
+    .toggle{
+        display: block;
+    }
+    .active{
+        display:block;
+    }
+    
+    #nav{
+        display: flex;
+    }
+     #nav ul{
+        //margin-left: -5px;
+        //height:180px;
+        //line-height: 2px;
+         flex-direction: column;
+         align-items: flex-start;
+         margin-top: 40px;
+         margin-left: -46px;
+        
+       
+    }
+    ul{
+        clear:both;
+                width:100%;
+         display: none;
+        
+     
+    }
+    #nav ul li{
+        display: block;
+        margin-left: -40px;
+      margin-top: 2px;
+        background-color: black;
+        
+            
+    }
+    #nav ul li a{
+        color: white;
+        font-size: 17px;
+        margin-left: 10px;
+    
+          
+    }
+    #nav a:hover{
+        background-color: red;
+        
+        
+    }
+    #nav a.currentpage{
+        color:white;
+    }
+    .search{
+        display: flex;
+    }
+    input[type=text]{
+    width:62%;
+    padding: 8px;
+    
+	border-radius:5px;
+    margin-left: 30px;
+    border: none; 
+        display: none;
+    
+ }
+    
+button[type=submit]{
+    height: 30px;
+    width: 45px;
+    border-radius:5px;
+    background: white;
+    border: none;
+    margin-left: 50px;
+    
+}
+}
+@media only screen and (min-width: 481px)and (max-width: 768px){
+    body{
+        background-color: green;
+    }
+}
+@media only screen and (min-width: 769px)and (max-width: 1200px){
+    body{
+        background-color: blueviolet;
+    }
+}
+
 
 /*@media only screen and (max-width: 500px) {
   
