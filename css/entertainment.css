@@ -1,0 +1,143 @@
+#dance img{
+    float: right;
+    padding:10px;
+    margin-top: -130px;
+}
+#dance h3{
+    padding: 10px;
+    font-family: timenewroman;
+    color: #65ac04;
+    margin-left: -5px;
+    margin-top: 10px;
+    width: 55%;
+    
+}
+#dance p{
+    padding: 10px;
+    text-align: justify;
+    font-family: timenewroman;
+    margin-top: -30px;
+    width: 55%;
+    
+}
+hr { 
+  display: block;
+  margin-top:5em;
+  width: 90%;
+  border-style: inset;
+  border-width: 0.5px;
+}
+#music{
+    float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width: 23%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#music img{
+    margin-left: 5px;
+    
+}
+#music h4{
+    float: left;
+    margin-top: 20px;
+    margin-left: -5px;
+    color: #65ac04;
+}
+#music p{
+    padding: 5px;
+    text-align: justify;
+    
+}
+#ent1{
+    float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width: 22%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#ent1 img{
+    margin-left: 5px;
+    
+}
+#ent1 h4{
+    float: left;
+    margin-top: 10px;
+    margin-left:-10px;
+    padding: 5px;
+    color: #65ac04;
+}
+#ent1 p{
+    padding: 5px;
+    text-align: justify;
+    
+}
+#ent2{
+    float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width: 22%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#ent2 img{
+    margin-left: -5px;
+    margin-top: -5px;
+    
+}
+#ent2 h4{
+    float: left;
+    margin-top: -10px;
+    margin-left:-10px;
+    padding: 10px;
+    color: #65ac04;
+}
+#ent2 p{
+    padding: 5px;
+    text-align: justify;
+    /margin-top: -10px;
+    
+}
+#ent3{
+    float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width: 22%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#ent3 img{
+    margin-left: -5px;
+    margin-top: -5px;
+    
+}
+#ent3 h4{
+    float: left;
+    margin-top: -10px;
+    margin-left:-10px;
+    padding: 10px;
+    color: #65ac04;
+}
+#ent3 p{
+    padding: 5px;
+    text-align: justify;
+    /margin-top: -10px;
+    
+}
+#ad{
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+#ad img{
+     margin-bottom: 30px;
+}

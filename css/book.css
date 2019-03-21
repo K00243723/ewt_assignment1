@@ -1,0 +1,54 @@
+#ad{
+    float: right;
+}
+#ad img{
+    padding:10px;
+}
+#career{
+    float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width: 32%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#career img{
+    margin-left: 5px;
+    
+}
+#career h3{
+    float: left;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+#career p{
+    padding: 5px;
+    text-align: justify;
+    
+}  
+#creative{
+    float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width: 32%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#creative img{
+    margin-left: 5px;
+    
+}
+#creative h3{
+    float: left;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+#creative p{
+    padding: 5px;
+    text-align: justify;
+    
+}  

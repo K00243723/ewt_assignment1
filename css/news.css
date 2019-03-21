@@ -1,0 +1,92 @@
+#ad img{
+    float: right;
+    margin-top: 60px;
+    padding: 10px;
+}
+#headline1 h1{
+    font-family:Times New Roman;
+    margin-top: 50px;
+    padding: 10px;
+    color: #65ac04;
+}
+#headline1 p{
+    font-family:Times New Roman;
+    //float: right;
+    //width: 36%;
+    text-align: justify;
+    padding: 5px;
+margin-top: 8px;
+}
+#headline1 img{
+    padding: 5px;
+}
+
+
+#headline2 img{
+    padding: 10px;
+    float:left;
+    margin-top: 60px;
+}
+#headline2 h4{
+    
+    float: left;
+    margin-top: 80px;
+    width: 30%;
+    color: #65ac04;
+}
+
+#headline3 img{
+    padding: 10px;
+    float:left;
+    margin-top: 60px;
+    margin-left: -40px;
+
+}
+
+#headline3 h4{
+    
+    float: left;
+    margin-top: 80px;
+    width: 35%;
+    color: #65ac04;
+}
+#headline4 {
+    //padding: 10px;
+float:left;
+   margin-top: 200px;
+margin-left: -100px;
+    
+    
+}
+#headline4 img{
+    padding: 10px;
+float:left;
+   margin-top: -150px;
+  margin-left: 100px;
+    margin-bottom: 90px;
+    
+}
+
+#headline4 h4{
+    
+    float: left;
+    margin-top: -130px;
+    width: 35%;
+    color: #65ac04;
+}
+#headline5 img{
+    padding: 10px;
+float:left;
+   margin-top: 50px;
+ margin-left: -140px;
+    
+    
+}
+
+#headline5 h4{
+    
+    float: left;
+    margin-top: 65px;
+    width: 35%;
+    color: #65ac04;
+}

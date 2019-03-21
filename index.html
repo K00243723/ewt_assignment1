@@ -1,78 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> The news</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> The news</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 
-	<body>
-       <div id="wrapper">
+<body>
+    <div id="wrapper">
         <div id="header">
             <!--<img src="img/newpaperlogo.png" width="70" height="60" alt="logoimage" title="logo"/>-->
-           <h1>The <span class="topic">News</span></h1>
-        
-           <div id="nav">
-               <ul>
-                   <li><a href="index.html" class="currentpage">Login</a></li>
-                   <li><a href="news.html">News</a></li>
-                   <li><a href="sport.html">Sports</a></li>
-                   <li><a href="style.html">Life & Style</a></li>
-                   <li><a href="entertainment.html">Entertainment</a></li>
-                   <li><a href="book.html">Books</a></li>
-                   <li><a href="tech.html">Sci & Technology</a></li>
-               </ul>
-               <div class="search">
-                    <form>
-                        <input type="text" placeholder="Search" name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                    </form>
-                   </div>
-                   
-                   <div class="login">
-                       <h3>SIGN UP</h3>
-                   <form id="form1" name="form1" method="post" action="#">
-  <p>
-    <label for="uname">User Name</label>
-    <input type="text" name="uname" id="uname" />
-  </p>
-  <p>
-    <label for="email">Email id</label>
-    <input type="email" name="email" id="email" />
-  </p>
-    <p>
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password" />
-  </p>
-  
-  <p>
-    <input type="submit" name="button" id="button" value="Submit"/>
-  </p>
-  <h5>Forgot password</h5>
-</form>
-          </div>   
-              
-               <div id="advertise2">
-                   <img src="img/ad2.jpeg" width="900" height="300" alt="advertisement" title="advertisement"/> 
-               </div>
-               
-           </div>
-           <footer>
-               <img src="img/facebook.png" width="40" height="25" alt="partyimage" title="facebook"/>  
-                 <img src="img/instagram.png" width="40" height="25" alt="partyimage" title="instagram"/>
-               <img src="img/linked.png" width="30" height="25" alt="partyimage" title="linked"/> 
-               <img src="img/twitter.png" width="30" height="25" alt="partyimage" title="twitter"/> 
-               <img src="img/youtubes.png" width="40" height="25" alt="partyimage" title="youtube"/> 
-               <p>Geetha Raju - K00243723</p>
-           </footer>
-                 
+            <h1>The <span class="topic">News</span></h1>
         </div>
-         
-       
-        </div> 
+            <div id="nav">
+                <!--<div class="toggle">
+                    <i class="fa fa-bars menu"></i>
+                </div>-->
+                <ul>
+                    <li><a href="index.html" class="currentpage">Login</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="sport.html">Sports</a></li>
+                    <li><a href="style.html">Life & Style</a></li>
+                    <li><a href="entertainment.html">Entertainment</a></li>
+                    <li><a href="book.html">Education</a></li>
+
+                </ul>
+                <!--<script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('.menu').click(function() {
+                            $('ul').toggleClass('active');
+
+                        })
+                    })
+                </script>-->
+            </div>
+
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
+        
+
+            <div class="login">
+                <h3>SIGN UP</h3>
+                <form id="form1" name="form1" method="post" action="#">
+                    <p>
+                        <label for="uname">User Name</label>
+                        <input type="text" name="uname" id="uname" />
+                    </p>
+                    <p>
+                        <label for="email">Email id</label>
+                        <input type="email" name="email" id="email" />
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" />
+                    </p>
+
+                    <p>
+                        <input type="submit" name="button" id="button" value="Submit" />
+                    </p>
+                    <h5>Forgot password</h5>
+                </form>
+            </div>
+
+            <div id="advertise2">
+                <img src="img/ad2.jpeg" width="900" height="300" alt="advertisement" title="advertisement" />
+            </div>
+
+        
+        <footer>
+            <div id="facebook"><a href="www.facebook.com"><img src="img/facebook.png" width="40" height="25" alt="partyimage" title="facebook" /></a></div>
+            <div id="instagram"><a href="www.instagram.com"><img src="img/instagram.png" width="40" height="35" alt="partyimage" title="instagram" /></a></div>
+            <div id="linked"><a href="www.linkedin.com"><img src="img/linked.png" width="30" height="23" alt="partyimage" title="linked" /></a> </div>
+            <div id="twitter"><a href="www.twitter.com"><img src="img/twitter.png" width="30" height="25" alt="partyimage" title="twitter" /></a> </div>
+            <div id="youtube"><a href="www.youtube.com"><img src="img/youtubes.png" width="45" height="30" alt="partyimage" title="youtube" /></a></div> <br>
+            <div id="fo">
+                <p>Geetha Raju - K00243723</p>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
 </body>
 </html>

@@ -1,0 +1,138 @@
+#sport{
+    margin-top: 10px;
+    float: left;
+    margin-left:-20px;
+    padding: 5px;
+}
+#sport h3{
+    color: #65ac04;
+    font-family: timenews roman;
+    width: 75%;
+    padding: 5px;
+    margin-top: 10px;
+}
+#sport p{
+    font-family: timenews roman;
+    width: 32%;
+    float: right;
+   //padding: 5px;
+}
+hr { 
+  display: block;
+  margin-top:28em;
+  width: 90%;
+  border-style: inset;
+  border-width: 0.5px;
+}
+#cricket{
+    float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width: 23%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#cricket img{
+    margin-left: 5px;
+    
+}
+#cricket h4{
+    float: left;
+    margin-top: 170px;
+    margin-left: -270px;
+    color: #65ac04;
+}
+#cricket p{
+    padding: 5px;
+    text-align: justify;
+    
+}
+#football{
+    float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width: 22%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#football img{
+    margin-left: 5px;
+    
+}
+#football h4{
+    float: left;
+    margin-top: 10px;
+    margin-left:-10px;
+    padding: 5px;
+    color: #65ac04;
+}
+#football p{
+    padding: 5px;
+    text-align: justify;
+    
+}
+#tennis{
+    float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width: 22%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#tennis img{
+    margin-left: -5px;
+    
+}
+#tennis h4{
+    float: left;
+    margin-top: 10px;
+    margin-left:-10px;
+    padding: 10px;
+    color: #65ac04;
+}
+#tennis p{
+    padding: 5px;
+    text-align: justify;
+    /margin-top: -10px;
+    
+}
+#athleties{
+    float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width: 22%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#athleties img{
+    margin-left: -5px;
+    
+}
+#athleties h4{
+    float: left;
+    margin-top: 10px;
+    margin-left:-10px;
+    padding: 10px;
+    color: #65ac04;
+}
+#athleties p{
+    padding: 5px;
+    text-align: justify;
+    /margin-top: -10px;
+    
+}
+#ad{
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+#ad img{
+     margin-bottom: 30px;
+}
