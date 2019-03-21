@@ -3,22 +3,22 @@
     background-color: #F6F3F0;
     display: flex;
     justify-content: center;
-      margin-top: 350px;
+      margin-top: 150px;
     
 }
 h3{ 
     color: #65ac04;
    margin-left: 520px;
-    margin-top: -50px;
+    margin-top: -150px;
     font-size: 2em;
-    // justify-content: center;
+   text-align: center;
    
 }
 
 .login label{
     color: black;
     margin-left: -260px;
-   //justify-content: center;
+   justify-content: center;
     
 }
 #uname{
@@ -85,6 +85,71 @@ h5{
     body{
         background-color: red;
     }
+    
+    h3{
+        margin-top: -80px;
+        margin-left: 60px;
+        font-size: 26px;
+    }
+    .login label{
+    color: black;
+    margin-left: -100px;
+  // justify-content: center;
+        font-size: 16px;
+    
+}
+#uname{
+    //margin-left: 5px;
+    line-height: 30px;
+  
+    width: 180px;
+    border-radius: 5px;
+    margin-top: -10px;
+    
+}
+#email{
+    margin-left:40px;
+    line-height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 10px;
+     border: 1px solid black;
+}
+ #password{
+    margin-left: 25px;
+    line-height: 30px;
+    width: 180px;
+    
+}
+#button{
+   margin-left: -40px;
+    height: 30px;
+    width: 100px;
+    
+    
+    font-size: 16px;
+    
+    
+}
+h5{
+    
+    margin-left: -40px;
+    
+}
+
+#advertise2{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+   
+}
+#advertise2 img{
+    padding: 30px;
+    width:300px;
+    height: 100px;
+      
+}
+    
    
 }
 
@@ -99,6 +164,77 @@ h5{
         background-color: green;
     }
      
+    .login{
+    
+    background-color: #F6F3F0;
+    display: flex;
+    justify-content: center;
+      margin-top: 350px;
+    
+}
+h3{ 
+    color: #65ac04;
+   margin-left: 270px;
+    margin-top: -110px;
+    font-size: 2em;
+     justify-content: center;
+   
+}
+    .login{
+        margin-top: 260px;
+    }
+.login label{
+    color: black;
+    margin-left: -260px;
+   justify-content: center;
+    
+    
+}
+#uname{
+   
+    margin-left: 15px;
+    line-height: 35px;
+    width: 265px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#email{
+    margin-left: 40px;
+    line-height: 35px;
+    width: 265px;
+    border-radius: 5px;
+    margin-top: 10px;
+     border: 1px solid black;
+}
+ #password{
+    margin-left: 25px;
+    line-height: 35px;
+    width: 265px;
+    border-radius: 5px;
+     margin-top: 10px;
+     border: 1px solid black;
+}
+#button{
+    margin-left: -100px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #65ac04;
+    border: none;
+    color: white;
+    font-size: 20px;
+    
+    
+}
+
+
+
+#advertise2 img{
+    padding: 30px;
+      width:500px;
+    height: 150px;
+}
 }
 
 

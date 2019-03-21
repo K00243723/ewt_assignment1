@@ -42,6 +42,8 @@
     display: flex;
    // flex-wrap: wrap;
     //justify-content: space-between;
+    position: relative;
+         z-index: 1000;
         
    }
 ul{
@@ -92,10 +94,12 @@ ul li a{
     float: right;
    // width: 24%;
     margin-right: 10px;
-    margin-top: -38px;   
+    margin-top: -38px; 
+    position: relative;
+         z-index: 1000;
 }
-input[type=text]{
-    width:62%;
+input[type=text1]{
+    width:62px;
     padding: 8px;
     
 	border-radius:5px;
@@ -105,7 +109,7 @@ input[type=text]{
  }
 button[type=submit]{
     height: 30px;
-    width: 15%;
+    width: 15px;
     border-radius:5px;
     background: white;
     border: none;
@@ -232,7 +236,7 @@ footer {
     }
     ul{
         clear:both;
-                width:100%;
+        width:100%;
          display: none;
         
      
@@ -263,19 +267,28 @@ footer {
     .search{
         display: flex;
         flex-flow: wrap;
+        margin-left: 130px;
+        margin-top: -30px;
     }
-    input[type=text]{
-     
-        display: none;
+     .search input[type=text1]{
+    width:160px;
+    padding: 10px;
+    
+	border-radius:5px;
+    margin-left: -50px;
+    border: none;
+         display: none;
     
  }
-    
-button[type=submit]{
+    button[type=submit]{
     height: 30px;
-    width: 45px;
-    margin-left: 50px;
+    width: 15%;
+   margin-left: 180px;
+        margin-top: -40px;
+        
     
 }
+   
 }
 
 @media only screen and (min-width: 768px){
@@ -292,7 +305,7 @@ button[type=submit]{
         display: flex;
     }
     #header h1{
-        font-size: 48px
+        font-size: 44px
     }
     #header img{
         width: 50px;
@@ -307,6 +320,8 @@ button[type=submit]{
     
     #nav{
         display: flex;
+        position: relative;
+         z-index: 1000;
     }
      #nav ul{
         //margin-left: -5px;
@@ -349,27 +364,27 @@ button[type=submit]{
     #nav a.currentpage{
         color:white;
     }
-    .search{
+      .search{
         display: flex;
         flex-flow: wrap;
+        margin-left: -130px;
+        margin-top: -30px;
     }
-    input[type=text]{
-    width:%;
-    padding: 8px;
-    
-	border-radius:5px;
-    //margin-left: 10px;
-    border: none;   
-    
- }
-    
-button[type=submit]{
+     
+     button[type=submit]{
     height: 30px;
-    width: 45px;
-   // margin-left: 0px;
+    width: 15%;
+   margin-left: 180px;
+        margin-top: -40px;
+        //display: none;
     
 }
+
+input[type=text1]{
+    width:100px;
+    margin-top: -10px;
     
+}
 }
 
 
@@ -381,5 +396,36 @@ button[type=submit]{
     #wrapper {
         
         width: 1200px;
+    }
+    .toggle{
+        
+        display: none;
+    }
+     button[type=submit]{
+        height: 30px;
+        width: 15%;
+        margin-left: 180px;
+        margin-top: -40px;
+             display: none;
+
+    
+}
+  #nav ul{
+        //margin-left: -5px;
+        //height:180px;
+        //line-height: 2px;
+         //flex-direction: column;
+         align-items: flex-start;
+         margin-top: 40px;
+         margin-left: -46px;
+        
+       
+    }  
+    ul{
+        clear:both;
+        width:100%;
+         //display: none;
+        
+     
     }
 }
