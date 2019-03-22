@@ -370,13 +370,21 @@ footer {
         margin-left: -130px;
         margin-top: -30px;
     }
-     
+      .search input[type=text1]{
+    width:160px;
+    padding: 10px;
+    border-radius:5px;
+    margin-left: -50px;
+    border: none;
+    display: block;
+    
+ }
      button[type=submit]{
     height: 30px;
     width: 15%;
    margin-left: 180px;
         margin-top: -40px;
-        //display: none;
+        display: none;
     
 }
 
@@ -397,35 +405,89 @@ input[type=text1]{
         
         width: 1200px;
     }
+     #header{
+        display: flex;
+    }
+    #header h1{
+        font-size: 46px
+    }
+    #header img{
+        width: 55px;
+        height: 50px;
+    }
     .toggle{
-        
         display: none;
     }
-     button[type=submit]{
-        height: 30px;
-        width: 15%;
-        margin-left: 180px;
-        margin-top: -40px;
-             display: none;
-
+    .active{
+        display:block;
+    }
     
-}
-  #nav ul{
+    #nav{
+        display: flex;
+        position: relative;
+         z-index: 1000;
+        height: 2.7em;
+    }
+     #nav ul{
         //margin-left: -5px;
         //height:180px;
         //line-height: 2px;
-         //flex-direction: column;
-         align-items: flex-start;
-         margin-top: 40px;
-         margin-left: -46px;
+         //flex-direction: row;
+         //align-items: flex-start;
+         margin-top: -5px;
+         margin-left: -20px;
         
        
-    }  
+    }
     ul{
         clear:both;
-        width:100%;
-         //display: none;
+                //width:100%;
+         display: block;
+        
+        
         
      
     }
+    #nav ul li{
+        display: inline-block;
+        margin-left: -20px;
+        margin-top: 5px;
+        background-color:red;
+        height: 12px;
+        
+            
+    }
+    #nav ul li a{
+        color: white;
+        font-size: 19px;
+        margin-left: -6px;
+        padding: 2px;
+    
+          
+    }
+    #nav a:hover{
+        background-color: red;
+        
+        
+    }
+    #nav a.currentpage{
+        color:white;
+    }
+      .search{
+        display: flex;
+        flex-flow: wrap;
+        margin-left: -130px;
+        margin-top: -30px;
+    }
+     
+    .search input[type=text1]{
+    width:120px;
+    padding: 8px;
+    border-radius:5px;
+    margin-left: -40px;
+    border: none;
+    display: block;
+    
+ }
+    
 }
