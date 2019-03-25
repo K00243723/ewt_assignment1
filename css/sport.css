@@ -129,11 +129,12 @@ hr {
     /margin-top: -10px;
     
 }
-#ad{
-    margin-left: 130px;
-    margin-bottom: 50px;
+#ad1{
+    display: flex;
+    margin-left: 60px;
+    //margin-bottom: 50px;
 }
-#ad img{
+#ad1 img{
      margin-bottom: 30px;
 }
 @media only screen and  (min-width: 480px){
