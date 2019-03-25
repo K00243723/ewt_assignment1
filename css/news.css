@@ -1,13 +1,24 @@
+#ad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 #ad img{
     float: right;
-    margin-top: 60px;
+    margin-top: -20px;
     padding: 10px;
+}
+#headline1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #headline1 h1{
     font-family:Times New Roman;
     margin-top: 50px;
     padding: 10px;
     color: #65ac04;
+    
 }
 #headline1 p{
     font-family:Times New Roman;
@@ -15,80 +26,104 @@
     //width: 36%;
     text-align: justify;
     padding: 5px;
-margin-top: 8px;
+    margin-top: 8px;
 }
 #headline1 img{
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
+#headline2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 #headline2 img{
     padding: 10px;
-    float:left;
-    margin-top: 60px;
+    margin-top: 10px;
+    margin-left: -10px;
 }
 #headline2 h4{
     
-    float: left;
-    margin-top: 80px;
-    width: 30%;
+   //float: left;
+    margin-top:70px;
+    //width: 30px;
     color: #65ac04;
+    margin-left: 5px;
+}
+#headline3{
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: center;
 }
 
 #headline3 img{
     padding: 10px;
-    float:left;
-    margin-top: 60px;
-    margin-left: -40px;
+    //float:left;
+    margin-top: 10px;
+    margin-left: 5px;
 
 }
 
 #headline3 h4{
     
-    float: left;
-    margin-top: 80px;
-    width: 35%;
+    //float: left;
+    margin-top: -130px;
+   // width: 35%;
     color: #65ac04;
+    margin-left: 230px;
 }
 #headline4 {
     //padding: 10px;
-float:left;
-   margin-top: 200px;
-margin-left: -100px;
+    //float:left;
+   //margin-top: 150px;
+   // margin-left: -95px;
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: center;
     
     
 }
 #headline4 img{
     padding: 10px;
-float:left;
-   margin-top: -150px;
-  margin-left: 100px;
+   // float:left;
+    margin-top: 10px;
+    margin-left: 5px;
     margin-bottom: 90px;
     
 }
 
 #headline4 h4{
     
-    float: left;
-    margin-top: -130px;
-    width: 35%;
+    //float: left;
+    margin-top: 70px;
+   // width: 35%;
     color: #65ac04;
+    margin-left: 5px;
+}
+#headline5{
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: center;
 }
 #headline5 img{
     padding: 10px;
-float:left;
-   margin-top: 50px;
- margin-left: -140px;
+    //float:left;
+    margin-top: -80px;
+    margin-left: 5px;
     
     
 }
 
 #headline5 h4{
     
-    float: left;
-    margin-top: 65px;
-    width: 35%;
+    //float: left;
+    margin-top: -105px;
+    //width: 35%;
     color: #65ac04;
+    margin-left:230px;
 }
 @media only screen and  (min-width: 480px){
     
