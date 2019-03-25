@@ -258,16 +258,16 @@
         flex-wrap: wrap;
     }
     #headline2 img{
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 150px;
         //float: left;
         margin-left: -370px;
         padding: 5px;
     }
     #headline2 h4{
         width: 300px;
-        margin-top: 230px;
-        margin-left: -300px;
+        margin-top: 180px;
+        margin-left: -255px;
     
     }
     #headline3{
@@ -276,17 +276,17 @@
         flex-wrap: wrap;
     }
     #headline3 img{
-        width: 330px;
-        height: 200px;
+        width: 250px;
+        height: 150px;
         //float: left;
-        margin-left: 350px;
-        margin-top:-270px;
+        margin-left: 300px;
+        margin-top:-215px;
         padding: 5px;
     }
     #headline3 h4{
         width: 300px;
         margin-top: -50px;
-       margin-left: 330px;
+       margin-left: 350px;
     }
     
      #headline4{
@@ -295,16 +295,16 @@
         flex-wrap: wrap;
     }
     #headline4 img{
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 150px;
         //float: left;
         margin-left: -370px;
         padding: 5px;
     }
     #headline4 h4{
         width: 300px;
-        margin-top: 210px;
-        margin-left: -300px;
+        margin-top: 160px;
+        margin-left: -250px;
     
     }
     #headline5{
@@ -313,28 +313,71 @@
         flex-wrap: wrap;
     }
     #headline5 img{
-        width: 330px;
-        height: 200px;
+        width: 250px;
+        height: 150px;
         //float: left;
-        margin-left: 350px;
-        margin-top:-300px;
+        margin-left: 300px;
+        margin-top:-250px;
         padding: 5px;
     }
     #headline5 h4{
         width: 300px;
         margin-top: -80px;
-       margin-left: 330px;
+       margin-left: 350px;
     }
     #ad{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-    
+    #ad img{
+        width: 400px;  
+        margin-top: -70px;
+    }
 }
 @media only screen and (min-width: 1200px){
     body{
         background-color: blueviolet;
     }
+    #headline2 img{
+        width: 300px;
+        height: 200px;
+        margin-left: -380px;
+    }
+    #headline2 h4{
+        margin-top: 230px;
+        margin-left: -300px;
+        font-size: 16px;
+    }
+    #headline3 img{
+        width: 300px;
+        height: 200px;
+        margin-top: -275px;
+    }
+    #headline3 h4{
+        margin-left: 310px;
+        font-size: 16px;
+        margin-top: -60px
+    }
+    #headline4 img{
+        width: 300px;
+        height: 200px;
+        margin-left: -370px;
+    }
+    #headline4 h4{
+        font-size: 16px;
+        margin-top: 210px;
+        margin-left:-300px;
+    }
+    #headline5 img{
+        width: 300px;
+        height: 200px;
+        margin-left: 300px;
+        margin-top: -300px;
+    }
+    #headline5 h4{
+        font-size: 16px;
+        margin-left: 300px;
+    } 
     
 }
