@@ -1,10 +1,17 @@
 #ad{
-    float:right;
+    //float:right;
+//padding: 10px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+#ad img{
     padding: 10px;
+    margin-left: 50px;
 }
 #kids{
     padding: 10px;
-    margin-top: 40px;
+    //margin-top: 0px;
 }
 #kids h4{
     margin-top: -150px;
@@ -16,10 +23,10 @@
 #kids hr { 
   display: block;
   margin-top:7em;
-  width: 38%;
+  
   border-style: inset;
   border-width: 1px;
-    margin-left: 320px;
+    
 }
 #patrick{
     //padding: 10px;
@@ -38,15 +45,15 @@
 }
 #patrick hr { 
   display: block;
-  margin-top:5em;
-  width: 70%;
+  margin-top:130px;
+ 
   border-style: inset;
   border-width: 1px;
-    margin-left: 320px;
+    
 }
 #fashion{
     padding: 10px;
-    margin-top: 20px;
+    margin-top: -10px;
 }
 #fashion img{
    // margin-top:-20px;
@@ -60,15 +67,15 @@
 }
 #fashion hr { 
   display: block;
-  margin-top:8em;
-  width: 70%;
+  margin-top:115px;
+  
   border-style: inset;
   border-width: 1px;
-    margin-left: 320px;
+    
 }
 #woman{
     padding: 10px;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 #woman img{
     //margin-top:-20px;
@@ -84,14 +91,14 @@
 #woman hr { 
   display: block;
   margin-top:8em;
-  width: 70%;
+  
   border-style: inset;
   border-width: 1px;
-    margin-left: 320px;
+    
 }
 #yoga{
     padding: 10px;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 #yoga img{
     //margin-top:-20px;
@@ -107,10 +114,10 @@
 #yoga hr { 
   display: block;
   margin-top:8em;
-  width: 70%;
+  
   border-style: inset;
   border-width: 1px;
-    margin-left: 320px;
+    
 }
 @media only screen and  (min-width: 480px){
     

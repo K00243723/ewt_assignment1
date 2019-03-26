@@ -80,7 +80,7 @@ hr {
     font-family: timenewroman;
    
     padding: 10px;
-    margin-top: -650px;
+    margin-top: -640px;
     margin-bottom:330px;
     display: flex;
    width: 200px;
@@ -116,9 +116,9 @@ hr {
     font-family: timenewroman;
     width:200px;
     padding: 10px;
-    margin-top: -700px;
+    margin-top: -800px;
     margin-bottom: 30px;
-    margin-left: 500px
+    margin-left: 480px
     
 }
 #tennis img{
@@ -150,8 +150,8 @@ hr {
 }
 #ad img{
      //margin-bottom: 30px;
-    margin-top: 700px;
-    margin-left: -650px;
+    margin-top: 100px;
+    //margin-left: 0px;
     padding-bottom: 10px;
     
 }
