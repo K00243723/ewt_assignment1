@@ -1,7 +1,7 @@
 #dance img{
-    float: right;
+    //float: right;
     padding:10px;
-    margin-top: -130px;
+    //margin-top: -130px;
 }
 #dance h3{
     padding: 10px;
@@ -9,7 +9,7 @@
     color: #65ac04;
     margin-left: -5px;
     margin-top: 10px;
-    width: 55%;
+    font-size: 28px;
     
 }
 #dance p{
@@ -17,80 +17,83 @@
     text-align: justify;
     font-family: timenewroman;
     margin-top: -30px;
-    width: 55%;
+    font-size: 20px;
+    
     
 }
-hr { 
-  display: block;
-  margin-top:5em;
-  width: 90%;
-  border-style: inset;
-  border-width: 0.5px;
-}
+
 #music{
-    float: left;
+    //float: left;
     margin-left: 10px; 
     background-color: white;
     font-family: timenewroman;
-    width: 23%;
+   //width: 23%;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
+    
 }
 #music img{
-    margin-left: 5px;
+    margin-left: 75px;
     
 }
 #music h4{
     float: left;
     margin-top: 20px;
-    margin-left: -5px;
+    //margin-left: -5px;
     color: #65ac04;
+    font-size: 22px;
+    //text-align: center;
 }
 #music p{
     padding: 5px;
     text-align: justify;
+    font-size: 18px;
     
 }
 #ent1{
-    float: left;
+   //float: left;
     margin-left: 10px; 
     background-color: white;
     font-family: timenewroman;
-    width: 22%;
+   // width: 22%;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 #ent1 img{
-    margin-left: 5px;
+   margin-left: 90px;
     
 }
 #ent1 h4{
     float: left;
     margin-top: 10px;
-    margin-left:-10px;
+    //margin-left:-10px;
     padding: 5px;
     color: #65ac04;
+    font-size: 22px;
 }
 #ent1 p{
     padding: 5px;
     text-align: justify;
+    font-size: 18px;
     
 }
 #ent2{
-    float: left;
+    //float: left;
     margin-left: 10px; 
     background-color: white;
     font-family: timenewroman;
-    width: 22%;
+   // width: 22%;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 #ent2 img{
-    margin-left: -5px;
+    //margin-left: -5px;
     margin-top: -5px;
+    text-align: center;
+    margin-left: 90px;
     
 }
 #ent2 h4{
@@ -99,25 +102,27 @@ hr {
     margin-left:-10px;
     padding: 10px;
     color: #65ac04;
+    font-size: 22px;
 }
 #ent2 p{
     padding: 5px;
     text-align: justify;
     /margin-top: -10px;
+    font-size: 18px;
     
 }
 #ent3{
-    float: left;
+    //float: left;
     margin-left: 10px; 
     background-color: white;
     font-family: timenewroman;
-    width: 22%;
+    //width: 22%;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 #ent3 img{
-    margin-left: -5px;
+    margin-left: 90px;
     margin-top: -5px;
     
 }
@@ -127,16 +132,18 @@ hr {
     margin-left:-10px;
     padding: 10px;
     color: #65ac04;
+    font-size: 22px;
 }
 #ent3 p{
     padding: 5px;
     text-align: justify;
     /margin-top: -10px;
+    font-size: 18px;
     
 }
 #ad{
-    margin-left: 130px;
-    margin-bottom: 50px;
+    margin-left: 100px;
+    
 }
 #ad img{
      margin-bottom: 30px;
