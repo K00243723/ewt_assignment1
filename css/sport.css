@@ -42,6 +42,130 @@ hr {
   border-width: 1.5px;
 }
 #cricket{
+   // float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 200px;
+    //justify-content: flex-start;
+    flex-flow:wrap;
+}
+#cricket img{
+    margin-left: -5px;
+    width: 200px;
+        
+}
+#cricket h4{
+    //float: left;
+    margin-top: 10px;
+    margin-left: -0px;
+    color: #65ac04;
+}
+#cricket p{
+    padding: 5px;
+    text-align: justify;
+    margin-top: -10px;
+    font-size: 18px;
+    
+}
+#football{
+    //float: left;
+    
+    background-color: white;
+    font-family: timenewroman;
+   
+    padding: 10px;
+    margin-top: -650px;
+    margin-bottom:330px;
+    display: flex;
+   width: 200px;
+   justify-content:center;
+    flex-flow:wrap;
+    margin-left: 250px;
+    
+}
+#football img{
+    margin-left: 5px;
+    width: 200px;
+   
+    
+}
+#football h4{
+    //float: left;
+    margin-top: 10px;
+    margin-left:-10px;
+    padding: 5px;
+    color: #65ac04;
+}
+#football p{
+    padding: 5px;
+    text-align: justify;
+    font-size: 18px;
+    margin-top: -10px;
+    
+}
+#tennis{
+   // float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    width:200px;
+    padding: 10px;
+    margin-top: -700px;
+    margin-bottom: 30px;
+    margin-left: 500px
+    
+}
+#tennis img{
+    margin-left: -5px;
+     width: 200px;
+    
+}
+#tennis h4{
+    //float: left;
+    margin-top: 10px;
+    margin-left:-10px;
+    padding: 10px;
+    color: #65ac04;
+}
+#tennis p{
+    padding: 5px;
+    text-align: justify;
+   
+    font-size: 18px;
+    margin-top: -30px;
+    
+}
+
+#ad{
+    display: flex;
+    
+    flex-flow: wrap;
+    
+}
+#ad img{
+     //margin-bottom: 30px;
+    margin-top: 700px;
+    margin-left: -650px;
+    padding-bottom: 10px;
+    
+}
+@media only screen and  (min-width: 480px){
+    
+    #wrapper{
+    width:400px;
+
+    }
+    
+    body{
+        background-color: red;
+    }
+   /* #cricket{
     //float: left;
     margin-left: 10px; 
     background-color: white;
@@ -132,54 +256,8 @@ hr {
     text-align: justify;
     /margin-top: -10px;
     
-}
-#athleties{
-    //float: left;
-    margin-left: 10px; 
-    background-color: white;
-    font-family: timenewroman;
-    width: 22%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    width: 200px;
-}
-#athleties img{
-    margin-left: -5px;
-     width: 200px;
-    
-}
-#athleties h4{
-    //float: left;
-    margin-top: 10px;
-    margin-left:-10px;
-    padding: 10px;
-    color: #65ac04;
-}
-#athleties p{
-    padding: 5px;
-    text-align: justify;
-    /margin-top: -10px;
-    
-}
-/*#ad1{
-    display: flex;
-    margin-left: 60px;
-    //margin-bottom: 50px;
-}
-#ad1 img{
-     margin-bottom: 30px;
 }*/
-@media only screen and  (min-width: 480px){
-    
-    #wrapper{
-    width:400px;
 
-    }
-    
-    body{
-        background-color: red;
-    }
    
 }
 
@@ -194,127 +272,7 @@ hr {
         background-color: green;
     }
     
-#cricket{
-    //float: left;
-    margin-left: 10px; 
-    background-color: white;
-    font-family: timenewroman;
-    width: 200px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-flow:wrap;
-}
-#cricket img{
-    margin-left: -5px;
-    width: 200px;
-        
-}
-#cricket h4{
-    //float: left;
-    margin-top: 10px;
-    margin-left: -0px;
-    color: #65ac04;
-}
-#cricket p{
-    padding: 5px;
-    text-align: justify;
-    margin-top: -10px;
-    
-}
-#football{
-    //float: left;
-    margin-left: 10px; 
-    background-color: white;
-    font-family: timenewroman;
-    width: 22%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: row;
-    //justify-content:;
-    flex-flow:wrap;
-    width: 200px;
-}
-#football img{
-    margin-left: 5px;
-     width: 200px;
-    
-}
-#football h4{
-    //float: left;
-    margin-top: 10px;
-    margin-left:-10px;
-    padding: 5px;
-    color: #65ac04;
-}
-#football p{
-    padding: 5px;
-    text-align: justify;
-    
-}
-#tennis{
-    //float: left;
-    margin-left: 10px; 
-    background-color: white;
-    font-family: timenewroman;
-    width: 22%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    width: 200px;
-}
-#tennis img{
-    margin-left: -5px;
-     width: 200px;
-    
-}
-#tennis h4{
-    //float: left;
-    margin-top: 10px;
-    margin-left:-10px;
-    padding: 10px;
-    color: #65ac04;
-}
-#tennis p{
-    padding: 5px;
-    text-align: justify;
-    /margin-top: -10px;
-    
-}
-#athleties{
-    //float: left;
-    margin-left: 10px; 
-    background-color: white;
-    font-family: timenewroman;
-    width: 22%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    width: 200px;
-}
-#athleties img{
-    margin-left: -5px;
-     width: 200px;
-    
-}
-#athleties h4{
-    //float: left;
-    margin-top: 10px;
-    margin-left:-10px;
-    padding: 10px;
-    color: #65ac04;
-}
-#athleties p{
-    padding: 5px;
-    text-align: justify;
-    /margin-top: -10px;
-    
-}
+
      
 }
 
