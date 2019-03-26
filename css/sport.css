@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-flow:wrap;
    
 }
 #sport img{
@@ -13,7 +14,8 @@
     height: 350px;
     margin-left: 20px;
     padding: 10px;
-    flex-wrap: wrap;
+     
+
 }
 #sport h3{
     color: #65ac04;
@@ -30,11 +32,10 @@
     margin-left: 25px;
     margin-top: -20px;
     
-    
 }
 hr { 
   display: block;
-  margin-top:28em;
+  margin-top:10px;
   width: 90%;
   border-style: inset;
   border-width: 0.5px;
@@ -48,6 +49,10 @@ hr {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow:wrap;
 }
 #cricket img{
     margin-left: 5px;
@@ -144,14 +149,14 @@ hr {
     /margin-top: -10px;
     
 }
-#ad1{
+/*#ad1{
     display: flex;
     margin-left: 60px;
     //margin-bottom: 50px;
 }
 #ad1 img{
      margin-bottom: 30px;
-}
+}*/
 @media only screen and  (min-width: 480px){
     
     #wrapper{
