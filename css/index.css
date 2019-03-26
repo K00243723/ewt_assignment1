@@ -1,3 +1,6 @@
+body{
+
+}
 #wrapper{
     max-width:1200px;
    margin: auto;
@@ -5,6 +8,8 @@
     font-family:arial;
     padding: 5px;
     border: 1px solid black;
+           
+ 
     
 }
 #header{
