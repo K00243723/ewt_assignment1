@@ -1,3 +1,8 @@
+#dance{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 #dance img{
     //float: right;
     padding:10px;
@@ -24,21 +29,23 @@
 
 #music{
     //float: left;
-    margin-left: 10px; 
+    margin-left: 3px; 
     background-color: white;
     font-family: timenewroman;
    //width: 23%;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
-    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #music img{
-    margin-left: 75px;
+    //margin-left: 75px;
     
 }
 #music h4{
-    float: left;
+    //float: left;
     margin-top: 20px;
     //margin-left: -5px;
     color: #65ac04;
@@ -53,20 +60,23 @@
 }
 #ent1{
    //float: left;
-    margin-left: 10px; 
+    margin-left: 3px; 
     background-color: white;
     font-family: timenewroman;
    // width: 22%;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #ent1 img{
-   margin-left: 90px;
+   //margin-left: 90px;
     
 }
 #ent1 h4{
-    float: left;
+    //float: left;
     margin-top: 10px;
     //margin-left:-10px;
     padding: 5px;
@@ -81,24 +91,27 @@
 }
 #ent2{
     //float: left;
-    margin-left: 10px; 
+    margin-left: 3px; 
     background-color: white;
     font-family: timenewroman;
    // width: 22%;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #ent2 img{
     //margin-left: -5px;
     margin-top: -5px;
-    text-align: center;
-    margin-left: 90px;
+    //text-align: center;
+    //margin-left: 90px;
     
     
 }
 #ent2 h4{
-    float: left;
+    //float: left;
     margin-top: -10px;
     margin-left:-10px;
     padding: 10px;
@@ -114,17 +127,21 @@
 }
 #ent3{
     //float: left;
-    margin-left: 10px; 
+    margin-left: 5px; 
     background-color: white;
     font-family: timenewroman;
     //width: 22%;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #ent3 img{
-    margin-left: 90px;
+    //margin-left: 90px;
     margin-top: -5px;
+    text-align: center;
     
 }
 #ent3 h4{
@@ -143,7 +160,10 @@
     
 }
 #ad{
-    margin-left: 100px;
+    //margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
 #ad img{
@@ -159,6 +179,188 @@
     body{
         background-color: red;
     }
+    #dance{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#dance img{
+    //float: right;
+    padding:10px;
+    //margin-top: -130px;
+    width: 400px;
+    height: 230px;
+}
+#dance h3{
+    padding: 10px;
+    font-family: timenewroman;
+    color: #65ac04;
+    margin-left: -5px;
+    margin-top: 10px;
+    font-size: 24px;
+    
+}
+#dance p{
+    padding: 10px;
+    text-align: justify;
+    font-family: timenewroman;
+    margin-top: -30px;
+    font-size: 16px;
+    
+    
+}
+
+#music{
+    //float: left;
+    margin-left: 3px; 
+    background-color: white;
+    font-family: timenewroman;
+   //width: 23%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#music img{
+    //margin-left: 75px;
+    width: 350px;
+    height: 190px;
+    
+}
+#music h4{
+    //float: left;
+    margin-top: 20px;
+    //margin-left: -5px;
+    color: #65ac04;
+    font-size: 18px;
+    //text-align: center;
+}
+#music p{
+    padding: 5px;
+    text-align: justify;
+    font-size: 14px;
+    
+}
+#ent1{
+   //float: left;
+    margin-left: 3px; 
+    background-color: white;
+    font-family: timenewroman;
+   // width: 22%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#ent1 img{
+   //margin-left: 90px;
+     width: 350px;
+    height: 190px;
+}
+#ent1 h4{
+    //float: left;
+    margin-top: 10px;
+    //margin-left:-10px;
+    padding: 5px;
+    color: #65ac04;
+    font-size: 18px;
+}
+#ent1 p{
+    padding: 5px;
+    text-align: justify;
+    font-size: 14px;
+    
+}
+#ent2{
+    //float: left;
+    margin-left: 3px; 
+    background-color: white;
+    font-family: timenewroman;
+   // width: 22%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#ent2 img{
+    //margin-left: -5px;
+    margin-top: -5px;
+    //text-align: center;
+    //margin-left: 90px;
+     width: 350px;
+    height: 190px;
+    
+    
+}
+#ent2 h4{
+    //float: left;
+    margin-top: -10px;
+    margin-left:-10px;
+    padding: 10px;
+    color: #65ac04;
+    font-size: 18px;
+}
+#ent2 p{
+    padding: 5px;
+    text-align: justify;
+    /margin-top: -10px;
+    font-size: 14px;
+    
+}
+#ent3{
+    //float: left;
+    margin-left: 5px; 
+    background-color: white;
+    font-family: timenewroman;
+    //width: 22%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#ent3 img{
+    //margin-left: 90px;
+    margin-top: -5px;
+    text-align: center;
+     width: 350px;
+    height: 190px;
+    
+}
+#ent3 h4{
+    float: left;
+    margin-top: -10px;
+    margin-left:-10px;
+    padding: 10px;
+    color: #65ac04;
+    font-size: 18px;
+}
+#ent3 p{
+    padding: 5px;
+    text-align: justify;
+    /margin-top: -10px;
+    font-size: 14px;
+    
+}
+#ad{
+    //margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#ad img{
+     margin-bottom: 30px;
+     width: 350px;
+    height: 170px;
+}
    
 }
 
