@@ -129,6 +129,87 @@
     body{
         background-color: red;
     }
+    #ad{
+     display: flex;
+    flex-flow: wrap;
+    justify-content: center;   
+    }
+    #ad img{
+        width: 390px;
+        margin-left: -5px;
+    }
+    #kids{
+        display:flex;
+        flex-flow: wrap;
+    justify-content: center;
+        } 
+    #kids img{
+        width: 250px;
+        height: 160px;
+    }
+    #kids h4{
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+    #patrick{
+        display:flex;
+        flex-flow: wrap;
+    justify-content: center;
+        } 
+    #patrick img{
+        width: 250px;
+        height: 160px;
+    }
+    #patrick h4{
+        margin-left:5px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+    #fashion{
+        display:flex;
+        flex-flow: wrap;
+    justify-content: center;
+        } 
+    #fashion img{
+        width: 250px;
+        height: 160px;
+    }
+    #fashion h4{
+        margin-left:5px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+     #woman{
+        display:flex;
+        flex-flow: wrap;
+    justify-content: center;
+         margin-top: -10px;
+        } 
+    #woman img{
+        width: 250px;
+        height: 160px;
+    }
+    #woman h4{
+        margin-left:5px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+    #yoga{
+        display:flex;
+        flex-flow: wrap;
+    justify-content: center;
+         margin-top: -10px;
+        } 
+    #yoga img{
+        width: 250px;
+        height: 160px;
+    }
+    #yoga h4{
+        margin-left:5px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
    
 }
 
