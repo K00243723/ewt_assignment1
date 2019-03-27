@@ -247,7 +247,9 @@
 }
 #ad img{
     padding: 10px;
-    margin-left: 50px;
+   // margin-left: 50px;
+    width: 650px;
+    height: 280px;
 }
 #kids{
     padding: 10px;
@@ -382,6 +384,153 @@
     body{
         background-color: blueviolet;
     }
+       #ad{
+    //float:right;
+//padding: 10px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+#ad img{
+    padding: 10px;
+   // margin-left: 50px;
+    width: 710px;
+    height: 280px;
+}
+#kids{
+    padding: 10px;
+    //margin-top: 0px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+}
+    #kids img{
+        width: 260px;
+    }
+#kids h4{
+    margin-top: -150px;
+    margin-left: 270px;
+    padding: 5px;
+    color: #65ac04;
+    
+}
+#kids hr { 
+  display: block;
+  margin-top:7em;
+  
+  border-style: inset;
+  border-width: 1px;
+    
+}
+#patrick{
+    //padding: 10px;
+    //margin-top: 50px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content:flex-start;
+}
+#patrick img{
+    margin-top:-10px;
+    padding: 10px;
+    width: 260px;
+}
+#patrick h4{
+    margin-top: -150px;
+    margin-left: 280px;
+    padding: 5px;
+    color: #65ac04;
+    
+}
+#patrick hr { 
+  display: block;
+  margin-top:130px;
+ 
+  border-style: inset;
+  border-width: 1px;
+    
+}
+#fashion{
+    padding: 10px;
+    margin-top: -10px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content:flex-start;
+}
+#fashion img{
+   // margin-top:-20px;
+    width: 260px;
+}
+#fashion h4{
+    margin-top: -150px;
+    margin-left: 270px;
+    padding: 5px;
+    color: #65ac04;
+    
+}
+#fashion hr { 
+  display: block;
+  margin-top:115px;
+  
+  border-style: inset;
+  border-width: 1px;
+    
+}
+#woman{
+    padding: 10px;
+    margin-top: -20px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content:flex-start;
+}
+#woman img{
+    //margin-top:-20px;
+    padding: 10px;
+    width: 260px;
+    margin-left: -10px;
+}
+#woman h4{
+    margin-top: -150px;
+    margin-left: 270px;
+    padding: 5px;
+    color: #65ac04;
+    
+}
+#woman hr { 
+  display: block;
+  margin-top:8em;
+  
+  border-style: inset;
+  border-width: 1px;
+    
+}
+#yoga{
+    padding: 10px;
+    margin-top: -20px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content:flex-start;
+}
+#yoga img{
+    //margin-top:-20px;
+    padding: 10px;
+    width: 260px;
+    margin-left: -10px;
+}
+#yoga h4{
+    margin-top: -150px;
+    margin-left: 270px;
+    padding: 5px;
+    color: #65ac04;
+    
+}
+#yoga hr { 
+  display: block;
+  margin-top:8em;
+  
+  border-style: inset;
+  border-width: 1px;
+    
+}
     
 }
    
