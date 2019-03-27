@@ -12,6 +12,9 @@
 #kids{
     padding: 10px;
     //margin-top: 0px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 #kids h4{
     margin-top: -150px;
@@ -31,6 +34,9 @@
 #patrick{
     //padding: 10px;
     //margin-top: 50px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 #patrick img{
     margin-top:-10px;
@@ -54,6 +60,9 @@
 #fashion{
     padding: 10px;
     margin-top: -10px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 #fashion img{
    // margin-top:-20px;
@@ -76,6 +85,9 @@
 #woman{
     padding: 10px;
     margin-top: -20px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 #woman img{
     //margin-top:-20px;
@@ -99,6 +111,9 @@
 #yoga{
     padding: 10px;
     margin-top: -20px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 #yoga img{
     //margin-top:-20px;
@@ -223,7 +238,142 @@
     body{
         background-color: green;
     }
-     
+     #ad{
+    //float:right;
+//padding: 10px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+#ad img{
+    padding: 10px;
+    margin-left: 50px;
+}
+#kids{
+    padding: 10px;
+    //margin-top: 0px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+}
+#kids h4{
+    margin-top: -150px;
+    margin-left: 265px;
+    padding: 5px;
+    color: #65ac04;
+    
+}
+#kids hr { 
+  display: block;
+  margin-top:7em;
+  
+  border-style: inset;
+  border-width: 1px;
+    
+}
+#patrick{
+    //padding: 10px;
+    //margin-top: 50px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content:flex-start;
+}
+#patrick img{
+    margin-top:-10px;
+    padding: 10px;
+}
+#patrick h4{
+    margin-top: -150px;
+    margin-left: 280px;
+    padding: 5px;
+    color: #65ac04;
+    
+}
+#patrick hr { 
+  display: block;
+  margin-top:130px;
+ 
+  border-style: inset;
+  border-width: 1px;
+    
+}
+#fashion{
+    padding: 10px;
+    margin-top: -10px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content:flex-start;
+}
+#fashion img{
+   // margin-top:-20px;
+}
+#fashion h4{
+    margin-top: -150px;
+    margin-left: 270px;
+    padding: 5px;
+    color: #65ac04;
+    
+}
+#fashion hr { 
+  display: block;
+  margin-top:115px;
+  
+  border-style: inset;
+  border-width: 1px;
+    
+}
+#woman{
+    padding: 10px;
+    margin-top: -20px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content:flex-start;
+}
+#woman img{
+    //margin-top:-20px;
+    //padding: 10px;
+}
+#woman h4{
+    margin-top: -150px;
+    margin-left: 270px;
+    padding: 5px;
+    color: #65ac04;
+    
+}
+#woman hr { 
+  display: block;
+  margin-top:8em;
+  
+  border-style: inset;
+  border-width: 1px;
+    
+}
+#yoga{
+    padding: 10px;
+    margin-top: -20px;
+     display: flex;
+    flex-flow: wrap;
+    justify-content:flex-start;
+}
+#yoga img{
+    //margin-top:-20px;
+    //padding: 10px;
+}
+#yoga h4{
+    margin-top: -150px;
+    margin-left: 270px;
+    padding: 5px;
+    color: #65ac04;
+    
+}
+#yoga hr { 
+  display: block;
+  margin-top:8em;
+  
+  border-style: inset;
+  border-width: 1px;
+    
+}
 }
 
 
