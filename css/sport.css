@@ -165,15 +165,29 @@ hr {
     body{
         background-color: red;
     }
-   /* #cricket{
-    //float: left;
-    margin-left: 10px; 
-    background-color: white;
-    font-family: timenewroman;
-    width: 200px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    #sport{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #sport img{
+        width:380px;
+        height: 200px;
+        
+    }
+    #sport h3{
+        font-size: 18px;
+        margin-left: -1px;
+        padding-bottom: 10px;
+        
+    }
+    #sport p{
+        margin-left: 15px;
+    }
+    #cricket{
+   
+    width: 360px;
+   
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -181,27 +195,22 @@ hr {
 }
 #cricket img{
     margin-left: -5px;
-    width: 200px;
+    width: 360px;
+    height: 200px;
         
 }
 #cricket h4{
-    //float: left;
-    margin-top: 10px;
-    margin-left: -0px;
+    font-size: 18px;
     color: #65ac04;
 }
 #cricket p{
-    padding: 5px;
-    text-align: justify;
-    margin-top: -10px;
-    
+   font-size: 16px;
 }
 #football{
-    //float: left;
+    
     margin-left: 10px; 
-    background-color: white;
-    font-family: timenewroman;
-    width: 22%;
+   
+   
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -209,55 +218,55 @@ hr {
     flex-direction: row;
     //justify-content:;
     flex-flow:wrap;
-    width: 200px;
+    width: 360px;
 }
 #football img{
     margin-left: 5px;
-     width: 200px;
+      width: 360px;
+    height: 200px;
+        
     
 }
 #football h4{
-    //float: left;
-    margin-top: 10px;
-    margin-left:-10px;
-    padding: 5px;
-    color: #65ac04;
+    font-size: 18px;
+    margin-left: 5px;
 }
 #football p{
-    padding: 5px;
-    text-align: justify;
+   font-size: 16px;
+    margin-left: 5px;
     
 }
 #tennis{
     //float: left;
     margin-left: 10px; 
-    background-color: white;
-    font-family: timenewroman;
-    width: 22%;
+   
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
-    width: 200px;
+    width:360px;
 }
 #tennis img{
     margin-left: -5px;
-     width: 200px;
+     width: 360px;
+    height: 200px;
     
 }
 #tennis h4{
-    //float: left;
-    margin-top: 10px;
-    margin-left:-10px;
-    padding: 10px;
-    color: #65ac04;
+    font-size: 18px;
 }
 #tennis p{
-    padding: 5px;
-    text-align: justify;
-    /margin-top: -10px;
-    
-}*/
-
+    font-size: 16px;
+}
+    #ad{
+         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #ad img{
+        width: 380px;
+        height: 200px;
+        margin-top: -10px;
+    }
    
 }
 
