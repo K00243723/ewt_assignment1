@@ -235,7 +235,7 @@ h3{
 
 
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1250px){
     
     h3{ 
     color: #65ac04;
@@ -247,12 +247,12 @@ h3{
 }
     .login{
         margin-top: 200px;
-        text-align: center;
+        //text-align: center;
     }
 .login label{
     color: black;
-    //margin-left: -260px;
-   text-align: center;
+    margin-left: -260px;
+   //text-align: center;
     font-size:24px;
     
 }

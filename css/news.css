@@ -149,6 +149,7 @@
    
     #headline1 p{
         font-size: 14px;
+        padding:10px;
     }
      #headline2{
         display: flex;
@@ -241,12 +242,13 @@
         
     }
     #headline1 img{
-        width: 700px;
+        width: 600px;
         height: 300px;
         margin-top: -20px;
     }
     #headline1 p{
         font-size: 18px;
+        padding:10px;
     }
      #headline2{
         display: flex;
@@ -331,13 +333,14 @@
         margin-top: -70px;
     }
 }
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1250px){
     #headline1 img{
-        width:800px;
+        width:900px;
         height: 350px;
     }
     #headline1 p{
         font-size:22px;
+        padding:10px;
     }
     #headline2 img{
         width: 300px;

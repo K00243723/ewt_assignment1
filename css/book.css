@@ -37,7 +37,7 @@
 #career p{
     padding: 5px;
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
     
 }  
 #creative{
@@ -267,29 +267,21 @@
 
 
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1250px){
     
-        #ad{
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-        //margin-top: -20px;
-}
-#ad img{
-    padding:10px;
-    margin-top: 30px;
-    width: 170px;
-    height: 320px;
-    
-}
+    #ad img{
+        width: 270px;
+        height: 770px
+        
+    }
 #career{
     //float: left;
     margin-left: 10px; 
     background-color: white;
     font-family: timenewroman;
-    //width: 32%;
+    width: 900px;
     padding: 5px;
-    margin-top: -370px;
+   margin-top: -800px;
     margin-bottom: 30px;
     display: flex;
     justify-content: flex-start;
@@ -297,23 +289,24 @@
     margin-left: -1px;
 }
 #career img{
-    margin-left: 5px;
-    width:500px;
-    height: 260px;
+    margin-left: -455px;
+    width:800px;
+    height: 360px;
+    margin-top: 100px
     
 }
 #career h3{
-    float: left;
+    //float: left;
     margin-top: 20px;
-    margin-left: -5px;
+    margin-left: 5px;
     color: #65ac04;
-    font-size: 23px;
-    width: 490px;
+    font-size: 26px;
+    //width: 490px;
 }
 #career p{
     padding: 5px;
     text-align: justify;
-    font-size: 17px;
+    font-size: 20px;
     
 }  
 #creative{
@@ -326,31 +319,32 @@
     margin-top: 10px;
     margin-bottom: 30px;
     display: flex;
-    justify-content: center;
+   //justify-content: center;
     flex-wrap: wrap;
 }
 #creative img{
-    margin-left: 5px;
-    margin-top: 10px;
-    width:670px;
-    height: 280px;
+    margin-left: 15px;
+    margin-top: 90px;
+    width:850px;
+    height: 360px;
     
 }
 #creative h3{
    // float: left;
     margin-top: 20px;
-    margin-left: -200px;
+    margin-left: -10px;
     color: #65ac04;
-    font-size: 23px;
+    font-size: 26px;
     
 }
     #creative h4{
-        font-size: 18px;
+        font-size: 20px;
+        margin-left: -140px;
     }
 #creative p{
     padding: 5px;
     text-align: justify;
-    font-size:17px;
+    font-size:20px;
     margin-top: -10px;
     
     

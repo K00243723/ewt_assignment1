@@ -387,7 +387,7 @@ hr {
     }
  }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1250px){
    
     
      #sport{
@@ -409,7 +409,7 @@ hr {
     }
     #sport p{
         margin-left: 10px;
-        font-size: 18px;
+        font-size: 24px;
     }
     hr{
         margin-top: -20px;
@@ -431,11 +431,11 @@ hr {
         
 }
 #cricket h4{
-    font-size: 18px;
+    font-size: 20px;
     color: #65ac04;
 }
 #cricket p{
-   font-size: 16px;
+   font-size: 20px;
 }
 #football{
     
@@ -443,7 +443,7 @@ hr {
    
    
     padding: 10px;
-    margin-top: -495px;
+    margin-top: -540px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
@@ -459,11 +459,11 @@ hr {
     
 }
 #football h4{
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 5px;
 }
 #football p{
-   font-size: 16px;
+   font-size: px;
     margin-left: 5px;
     
 }
@@ -475,7 +475,7 @@ hr {
     justify-content:flex-end;
     flex-flow:wrap;
     padding: 5px;
-    margin-top: -450px;
+    margin-top: -490px;
     margin-bottom: 30px;
     width:350px;
 }
@@ -489,7 +489,7 @@ hr {
     font-size: 18px;
 }
 #tennis p{
-    font-size: 16px;
+    font-size: 18px;
 }
     #ad{
          display: flex;
