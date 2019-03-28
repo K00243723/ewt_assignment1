@@ -1,8 +1,12 @@
 #ad{
-    
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 #ad img{
     padding:10px;
+    margin-top: 30px;
+    
 }
 #career{
     //float: left;
@@ -10,9 +14,13 @@
     background-color: white;
     font-family: timenewroman;
     //width: 32%;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 5px;
+    margin-top: -347px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: -1px;
 }
 #career img{
     margin-left: 5px;
@@ -23,35 +31,46 @@
     margin-top: 20px;
     margin-left: -5px;
     color: #65ac04;
+    font-size: 22px;
+    width: 490px;
 }
 #career p{
     padding: 5px;
     text-align: justify;
+    font-size: 16px;
     
 }  
 #creative{
     //float: left;
-    margin-left: 10px; 
+    margin-left: 1px; 
     background-color: white;
     font-family: timenewroman;
     //width: 32%;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 5px;
+    margin-top: 10px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #creative img{
     margin-left: 5px;
+    margin-top: -20px;
+    
     
 }
 #creative h3{
     float: left;
     margin-top: 20px;
-    margin-left: -5px;
+    margin-left: 15px;
     color: #65ac04;
+    font-size: 22px;
+    
 }
 #creative p{
     padding: 5px;
     text-align: justify;
+    font-size:16px;
     
     
 }  
