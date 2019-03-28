@@ -184,10 +184,13 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+        //margin-top: -20px;
 }
 #ad img{
     padding:10px;
     margin-top: 30px;
+    width: 170px;
+    height: 320px;
     
 }
 #career{
@@ -197,7 +200,7 @@
     font-family: timenewroman;
     //width: 32%;
     padding: 5px;
-    margin-top: -347px;
+    margin-top: -370px;
     margin-bottom: 30px;
     display: flex;
     justify-content: flex-start;
@@ -206,6 +209,8 @@
 }
 #career img{
     margin-left: 5px;
+    width:500px;
+    height: 260px;
     
 }
 #career h3{
@@ -213,13 +218,13 @@
     margin-top: 20px;
     margin-left: -5px;
     color: #65ac04;
-    font-size: 22px;
+    font-size: 23px;
     width: 490px;
 }
 #career p{
     padding: 5px;
     text-align: justify;
-    font-size: 16px;
+    font-size: 17px;
     
 }  
 #creative{
@@ -237,22 +242,26 @@
 }
 #creative img{
     margin-left: 5px;
-    margin-top: -20px;
-    
+    margin-top: 10px;
+    width:600px;
+    height: 280px;
     
 }
 #creative h3{
-    //float: left;
+   // float: left;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: -130px;
     color: #65ac04;
-    font-size: 22px;
+    font-size: 23px;
     
 }
+    #creative h4{
+        font-size: 18px;
+    }
 #creative p{
     padding: 5px;
     text-align: justify;
-    font-size:16px;
+    font-size:17px;
     margin-top: -10px;
     
     
@@ -266,6 +275,92 @@
     body{
         background-color: blueviolet;
     }
+        #ad{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+        //margin-top: -20px;
+}
+#ad img{
+    padding:10px;
+    margin-top: 30px;
+    width: 170px;
+    height: 320px;
+    
+}
+#career{
+    //float: left;
+    margin-left: 10px; 
+    background-color: white;
+    font-family: timenewroman;
+    //width: 32%;
+    padding: 5px;
+    margin-top: -370px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: -1px;
+}
+#career img{
+    margin-left: 5px;
+    width:500px;
+    height: 260px;
+    
+}
+#career h3{
+    float: left;
+    margin-top: 20px;
+    margin-left: -5px;
+    color: #65ac04;
+    font-size: 23px;
+    width: 490px;
+}
+#career p{
+    padding: 5px;
+    text-align: justify;
+    font-size: 17px;
+    
+}  
+#creative{
+    //float: left;
+    margin-left: 1px; 
+    background-color: white;
+    font-family: timenewroman;
+    //width: 32%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#creative img{
+    margin-left: 5px;
+    margin-top: 10px;
+    width:670px;
+    height: 280px;
+    
+}
+#creative h3{
+   // float: left;
+    margin-top: 20px;
+    margin-left: -200px;
+    color: #65ac04;
+    font-size: 23px;
+    
+}
+    #creative h4{
+        font-size: 18px;
+    }
+#creative p{
+    padding: 5px;
+    text-align: justify;
+    font-size:17px;
+    margin-top: -10px;
+    
+    
+}   
     
 }
 
