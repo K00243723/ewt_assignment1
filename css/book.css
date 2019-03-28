@@ -27,7 +27,7 @@
     
 }
 #career h3{
-    float: left;
+    //float: left;
     margin-top: 20px;
     margin-left: -5px;
     color: #65ac04;
@@ -82,9 +82,7 @@
 
     }
     
-    body{
-        background-color: red;
-    }
+    
     #ad{
     display: flex;
     justify-content:center;
@@ -177,9 +175,7 @@
 
     
 }
-    body{
-        background-color: green;
-    }
+    
     #ad{
     display: flex;
     justify-content: flex-end;
@@ -272,9 +268,7 @@
 
 
 @media only screen and (min-width: 1200px){
-    body{
-        background-color: blueviolet;
-    }
+    
         #ad{
     display: flex;
     justify-content: flex-end;

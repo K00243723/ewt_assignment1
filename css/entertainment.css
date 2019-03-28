@@ -176,9 +176,7 @@
 
     }
     
-    body{
-        background-color: red;
-    }
+   
     #dance{
     display: flex;
     justify-content: center;
@@ -371,9 +369,7 @@
 
     
 }
-    body{
-        background-color: green;
-    }
+    
 #dance{
     display: flex;
     justify-content: center;
@@ -562,9 +558,7 @@
 
 
 @media only screen and (min-width: 1200px){
-    body{
-        background-color: blueviolet;
-    }
+    
 #dance{
     display: flex;
     justify-content: center;
@@ -574,8 +568,8 @@
     //float: right;
     padding:10px;
     //margin-top: -130px;
-    width: 690px;
-    height: 260px;
+    width: 890px;
+    height: 360px;
 }
 #dance h3{
     padding: 10px;
@@ -591,7 +585,7 @@
     text-align: justify;
     font-family: timenewroman;
     margin-top: -30px;
-    font-size: 18px;
+    font-size: 22px;
     margin-left: -5px;
     
     
@@ -612,8 +606,8 @@
 }
 #music img{
     //margin-left: 75px;
-    width: 650px;
-    height: 280px;
+    width: 750px;
+    height: 380px;
     
 }
 #music h4{
@@ -645,13 +639,13 @@
 }
 #ent1 img{
    //margin-left: 90px;
-    width: 650px;
-    height: 280px;
+   width: 750px;
+    height: 380px;
 }
 #ent1 h4{
     //float: left;
     margin-top: 10px;
-    margin-left:-175px;
+    margin-left:5px;
     padding: 5px;
     color: #65ac04;
     font-size: 22px;
@@ -680,8 +674,8 @@
     margin-top: -5px;
     //text-align: center;
     //margin-left: 90px;
-   width: 650px;
-    height: 280px;
+  width: 750px;
+    height: 380px;
     
     
 }
@@ -717,8 +711,8 @@
     //margin-left: 90px;
     margin-top: -5px;
     text-align: center;
-     width: 650px;
-    height: 280px;
+     width: 750px;
+    height: 380px;
     
 }
 #ent3 h4{
@@ -745,7 +739,7 @@
 }
 #ad img{
      margin-bottom: 10px;
-     width: 690px;
-    height: 240px;
+     width: 790px;
+    height: 300px;
 }
 }

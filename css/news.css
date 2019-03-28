@@ -131,16 +131,14 @@
 
     }
     
-    body{
-        background-color: red;
-    }
+   
     #headline1{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
     #headline1 h1{
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 5px;
     }
     #headline1 img{
@@ -150,7 +148,7 @@
     }
    
     #headline1 p{
-        font-size: 12px;
+        font-size: 14px;
     }
      #headline2{
         display: flex;
@@ -230,9 +228,7 @@
 
     
 }
-    body{
-        background-color: green;
-    }
+    
     #headline1{
          
         display: flex;
@@ -336,8 +332,9 @@
     }
 }
 @media only screen and (min-width: 1200px){
-    body{
-        background-color: blueviolet;
+    #headline1 img{
+        width:800px;
+        height: 350px;
     }
     #headline1 p{
         font-size:22px;
@@ -382,5 +379,9 @@
         font-size: 16px;
         margin-left: 300px;
     } 
+    #ad img{
+        width:700px;
+        height: 300px;
+    }
     
 }

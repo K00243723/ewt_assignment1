@@ -162,9 +162,7 @@ hr {
 
     }
     
-    body{
-        background-color: red;
-    }
+    
     #sport{
         display: flex;
         flex-wrap: wrap;
@@ -280,9 +278,7 @@ hr {
 
     
 }
-    body{
-        background-color: green;
-    }
+   
      #sport{
         display: flex;
         flex-wrap: wrap;
@@ -392,24 +388,22 @@ hr {
  }
 
 @media only screen and (min-width: 1200px){
-    body{
-        background-color: blueviolet;
-    }
+   
     
      #sport{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        //justify-content: center;
     }
     #sport img{
-        width:700px;
-        height:320px;
+        width:900px;
+        height:400px;
         
     }
     #sport h3{
         font-size: 26px;
-        margin-left: -150px;
-        padding: 10px;
+        margin-left: -10px;
+        //padding: 10px;
         
         
     }
@@ -422,18 +416,18 @@ hr {
     }
     #cricket{
    
-    width: 210px;
+    width: 350px;
     display: flex;
     //flex-direction: column;
     justify-content: flex-start;
     flex-flow:wrap;
-        margin-left: 5px;
+        margin-left: 25px;
         
 }
 #cricket img{
     margin-left: -5px;
-    width: 215px;
-    height: 130px;
+    width: 350px;
+    height: 230px;
         
 }
 #cricket h4{
@@ -445,22 +439,22 @@ hr {
 }
 #football{
     
-    margin-left: 240px; 
+    margin-left: 420px; 
    
    
     padding: 10px;
-    margin-top: -555px;
+    margin-top: -495px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content:center;
     flex-flow:wrap;
-    width: 210px;
+    width: 350px;
 }
 #football img{
     margin-left: 5px;
-      width: 215px;
-    height: 130px;
+     width: 350px;
+    height: 230px;
         
     
 }
@@ -475,20 +469,20 @@ hr {
 }
 #tennis{
     //float: left;
-    margin-left: 475px; 
+    margin-left: 820px; 
     display: flex;
     //flex-direction: row;
     justify-content:flex-end;
     flex-flow:wrap;
     padding: 5px;
-    margin-top: -474px;
+    margin-top: -450px;
     margin-bottom: 30px;
-    width:210px;
+    width:350px;
 }
 #tennis img{
     margin-left: -5px;
-    width: 215px;
-    height: 130px;
+   width: 350px;
+    height: 230px;
     
 }
 #tennis h4{
@@ -503,8 +497,8 @@ hr {
         justify-content: center;
     }
     #ad img{
-        width: 700px;
-        height: 200px;
+        width: 800px;
+        height: 300px;
         margin-top: 90px;
     }
     

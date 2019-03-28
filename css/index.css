@@ -103,7 +103,7 @@ ul li a{
     position: relative;
          z-index: 1000;
 }
-input[type=text1]{
+.searchbutton{
     width:62px;
     padding: 8px;
     
@@ -205,9 +205,7 @@ footer {
 
     }
     
-    body{
-        background-color: red;
-    }
+    
     #header{
         display: flex;
     }
@@ -275,7 +273,7 @@ footer {
         margin-left: 130px;
         margin-top: -30px;
     }
-     .search input[type=text1]{
+     .searchbutton{
     width:160px;
     padding: 10px;
     
@@ -303,9 +301,7 @@ footer {
 
     
 }
-    body{
-        background-color: green;
-    }
+    
      #header{
         display: flex;
     }
@@ -375,11 +371,12 @@ footer {
         margin-left: -130px;
         margin-top: -30px;
     }
-      .search input[type=text1]{
+      .searchbutton{
     width:160px;
     padding: 10px;
     border-radius:5px;
     margin-left: -50px;
+          margin-top: -11px;
     border: none;
     display: block;
     
@@ -403,9 +400,7 @@ input[type=text1]{
 
 
 @media only screen and (min-width: 1200px){
-    body{
-        background-color: blueviolet;
-    }
+   
     #wrapper {
         
         width: 1200px;
@@ -432,6 +427,7 @@ input[type=text1]{
         position: relative;
          z-index: 1000;
         height: 2.7em;
+        
     }
      #nav ul{
         //margin-left: -5px;
@@ -441,6 +437,7 @@ input[type=text1]{
          //align-items: flex-start;
          margin-top: -5px;
          margin-left: -20px;
+         
         
        
     }
@@ -455,8 +452,8 @@ input[type=text1]{
     }
     #nav ul li{
         display: inline-block;
-        margin-left: -20px;
-        margin-top: 5px;
+        margin-left: -1px;
+        margin-top: 6px;
         background-color:red;
         height: 12px;
         
@@ -464,9 +461,9 @@ input[type=text1]{
     }
     #nav ul li a{
         color: white;
-        font-size: 19px;
+        font-size: 22px;
         margin-left: -6px;
-        padding: 2px;
+        //padding: 14px;
     
           
     }
@@ -485,14 +482,22 @@ input[type=text1]{
         margin-top: -30px;
     }
      
-    .search input[type=text1]{
-    width:120px;
+    .searchbutton{
+    width:170px;
     padding: 8px;
     border-radius:5px;
-    margin-left: -40px;
+    margin-left: -10px;
     border: none;
     display: block;
     
  }
+      button[type=submit]{
+    height: 30px;
+    width: 40px;
+   margin-left: 180px;
+        margin-top: -30px;
+        display:block;
+    
+}
     
 }
